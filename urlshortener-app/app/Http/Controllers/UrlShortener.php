@@ -52,9 +52,6 @@ class UrlShortener extends Controller
         redirect("https://www.google.com/");
 
 
-        return response()
-            ->json(['name' => 'Abigail', 'state' => 'CA'])
-            ->withCallback($request->input('callback'));
     }
 
     public function urlsgenerator(){
