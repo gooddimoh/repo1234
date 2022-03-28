@@ -48,9 +48,7 @@ class UrlShortener extends Controller
         $url->password = "password";
         $url->save();
 
-
         redirect("https://www.google.com/");
-
 
     }
 
